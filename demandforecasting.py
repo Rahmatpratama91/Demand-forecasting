@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # Data permintaan kuartalan dalam ribuan
 demand = [98, 106, 109, 133, 130, 116, 133, 116,
@@ -22,12 +23,18 @@ df = pd.DataFrame({
     'Forecast (000s)': [round(f, 2) for f in forecast]
 })
 
-# Tampilkan data dan contoh perhitungan rinci untuk salah satu kuartal
+# Tampilkan tabel
 print(df)
 
-# Contoh perhitungan manual untuk kuartal ke-2 (Q2 Year 1):
-D_prev = demand[0]       # 98
-F_prev = forecast[0]     # 98
-F2 = alpha * D_prev + (1 - alpha) * F_prev
-print(f"\nContoh perhitungan Q2 Year 1:")
-print(f"F2 = {alpha} * {D_prev} + (1 - {alpha}) * {F_prev} = {F2:.2f}")
+# Visualisasi
+plt.figure(figsize=(12, 6))
+plt.plot(df['Quarter'], df['Demand (000s)'], marker='o', label='Actual Demand')
+plt.plot(df['Quarter'], df['Forecast (000s)'], marker='s', linestyle='--', label='Forecast (SES)')
+plt.xticks(rotation=45)
+plt.xlabel("Quarter")
+plt.ylabel("Demand (in 000s)")
+plt.title("Simple Exponential Smoothing Forecast")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()
