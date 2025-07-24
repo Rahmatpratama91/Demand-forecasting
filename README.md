@@ -1,7 +1,7 @@
 "# Demand-forecasting using python" 
 problem
 
-# Demand Forecasting using Simple Exponential Smoothing (SES)
+# Demand Forecasting using Simple Exponential Smoothing Method (SES) 
 
 ## Problem
 <img width="657" height="526" alt="image" src="https://github.com/user-attachments/assets/6bd3a800-f562-4699-9c82-23e66e2d9c61" />
