@@ -1,6 +1,3 @@
-"# Demand-forecasting using python" 
-problem
-
 # Demand Forecasting using Simple Exponential Smoothing Method (SES) 
 
 ## Definition of Demand Forecasting
