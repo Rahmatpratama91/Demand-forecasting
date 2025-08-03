@@ -9,9 +9,8 @@ Simple Exponential Smoothing (SES) is a time series forecasting method used for 
 
 ## 📝 Problem:
 <img width="657" height="526" alt="image" src="https://github.com/user-attachments/assets/6bd3a800-f562-4699-9c82-23e66e2d9c61" />
-# Simple Engineering Economics Calculator
 
-- Demand forecasting using SES method to ensure the company decide policy for the next period.
+- Demand forecasting using SES method to ensure the company decide policy correctly for the next period.
 
 ## ⚙️ Tools Used:
 - Python (Numpy,Matplotlib)
