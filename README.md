@@ -1,14 +1,14 @@
 ## 🧠 Project Overview
-# Definition of Demand Forecasting
+- Definition of Demand Forecasting
 Demand forecasting is the process of estimating future customer demand for a product or service based on historical data, market trends, and other relevant information. It helps businesses make informed decisions about inventory, production, staffing, budgeting, and marketing.
 
 
-# Definition of SES
+- Definition of SES
 Simple Exponential Smoothing (SES) is a time series forecasting method used for data without a clear trend or seasonal pattern. It gives more weight to recent observations while still considering past data in a diminishing way.
 
 ## 🔧 Project Title:
 
-- Demand Forecasting using Simple Exponential Smoothing Method (SES) 
+## Demand Forecasting using Simple Exponential Smoothing Method (SES) 
 
 
 ## 📝 Problem:
