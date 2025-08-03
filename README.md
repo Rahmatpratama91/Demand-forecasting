@@ -7,9 +7,19 @@ Demand forecasting is the process of estimating future customer demand for a pro
 ## Definition of SES
 Simple Exponential Smoothing (SES) is a time series forecasting method used for data without a clear trend or seasonal pattern. It gives more weight to recent observations while still considering past data in a diminishing way.
 
-## Problem
+## 📝 Problem:
 <img width="657" height="526" alt="image" src="https://github.com/user-attachments/assets/6bd3a800-f562-4699-9c82-23e66e2d9c61" />
+# Simple Engineering Economics Calculator
 
+- Demand forecasting using SES method to ensure the company decide policy for the next period.
+
+## ⚙️ Tools Used:
+- Python (Numpy,Matplotlib)
+
+## 📈 Features:
+- Demand forecasting using SES method.
+
+## ✅ Result:
 
 
 ## Graphic
